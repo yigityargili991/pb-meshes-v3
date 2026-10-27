@@ -1,0 +1,51 @@
+{
+  "@type": "neuroglancer_segment_properties",
+  "inline": {
+    "ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "properties": [
+      {
+        "id": "label",
+        "type": "label",
+        "values": [
+          "pb_glomerulus_L1",
+          "pb_glomerulus_L2",
+          "pb_glomerulus_L3",
+          "pb_glomerulus_L4",
+          "pb_glomerulus_L5",
+          "pb_glomerulus_L6",
+          "pb_glomerulus_L7",
+          "pb_glomerulus_L8",
+          "pb_glomerulus_L9",
+          "pb_glomerulus_R1",
+          "pb_glomerulus_R2",
+          "pb_glomerulus_R3",
+          "pb_glomerulus_R4",
+          "pb_glomerulus_R5",
+          "pb_glomerulus_R6",
+          "pb_glomerulus_R7",
+          "pb_glomerulus_R8",
+          "pb_glomerulus_R9"
+        ]
+      }
+    ]
+  }
+}
