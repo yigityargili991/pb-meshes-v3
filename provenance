@@ -4,7 +4,7 @@
   "processing": [
     {
       "by": "b'160510618+yigityargili991@users.noreply.github.com'",
-      "date": "2026-10-27 09:02 CET",
+      "date": "2026-10-27 16:50 CET",
       "method": {
         "cdn_cache": false,
         "closed_dataset_edges": true,
@@ -17,7 +17,7 @@
         "fill_holes": 0,
         "fill_missing": false,
         "frag_path": null,
-        "layer_path": "file:///Users/yigityargili/projects/pb-meshes-v3/pb-meshes-v3",
+        "layer_path": "file://datastack/pb-meshes-v3",
         "max_simplification_error": 40,
         "mesh_dir": "mesh",
         "mip": 0,
@@ -35,9 +35,9 @@
     },
     {
       "by": "b'160510618+yigityargili991@users.noreply.github.com'",
-      "date": "2026-10-27 09:02 CET",
+      "date": "2026-10-27 16:50 CET",
       "method": {
-        "cloudpath": "file:///Users/yigityargili/projects/pb-meshes-v3/pb-meshes-v3",
+        "cloudpath": "file://datastack/pb-meshes-v3",
         "draco_compression_level": 7,
         "frag_path": null,
         "mesh_dir": "mesh",
@@ -57,32 +57,17 @@
     },
     {
       "by": "160510618+yigityargili991@users.noreply.github.com",
-      "date": "2026-10-27 16:16 CET",
+      "date": "2026-10-27 16:50 CET",
       "method": {
-        "description": "Union of the source labels on this grid, meshed with the same MeshTask and MultiResShardedMeshMergeTask settings; its fragments were merged with those of the source labels before the shard was rebuilt. Mesh only: the volume still holds the source labels.",
-        "label": 19,
-        "name": "protocerebral_bridge",
-        "source_labels": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
+        "changed_labels": [
           9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
           18
         ],
-        "task": "add_whole_pb_segment.py"
+        "description": "Labels other than the changed ones were meshed from the reference volume on its own grid, so their meshes are the reference's; the changed labels and the union of all labels (mesh only) were meshed from this volume. Same MeshTask and MultiResShardedMeshMergeTask settings; the fragments were merged before the shard was rebuilt.",
+        "kept_labels_meshed_from": "/Users/yigityargili/projects/pb-meshes-v3/pb-meshes-v3",
+        "label": 19,
+        "name": "protocerebral_bridge",
+        "task": "assemble_refit_meshes.py"
       }
     }
   ],
