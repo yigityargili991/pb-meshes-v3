@@ -19,7 +19,8 @@
       "15",
       "16",
       "17",
-      "18"
+      "18",
+      "19"
     ],
     "properties": [
       {
@@ -43,7 +44,8 @@
           "pb_glomerulus_R6",
           "pb_glomerulus_R7",
           "pb_glomerulus_R8",
-          "pb_glomerulus_R9"
+          "pb_glomerulus_R9",
+          "protocerebral_bridge"
         ]
       }
     ]

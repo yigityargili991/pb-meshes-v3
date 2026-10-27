@@ -54,6 +54,36 @@
         "task": "MultiResShardedMeshMergeTask",
         "vertex_quantization_bits": 16
       }
+    },
+    {
+      "by": "160510618+yigityargili991@users.noreply.github.com",
+      "date": "2026-10-27 16:16 CET",
+      "method": {
+        "description": "Union of the source labels on this grid, meshed with the same MeshTask and MultiResShardedMeshMergeTask settings; its fragments were merged with those of the source labels before the shard was rebuilt. Mesh only: the volume still holds the source labels.",
+        "label": 19,
+        "name": "protocerebral_bridge",
+        "source_labels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "task": "add_whole_pb_segment.py"
+      }
     }
   ],
   "sources": []
